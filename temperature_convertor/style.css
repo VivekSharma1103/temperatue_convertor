@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(to right top,red,rgb(76, 111, 216));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.main{
+    /* display: flex; */
+    height: 300px;
+    width: 500px;
+    /* border: 2px solid greenyellow; */
+    /* background-color: rgb(142, 146, 146);
+     */
+     background-color: rgba(234, 237, 234, 0.166);
+     
+    
+    margin-top:100px;
+    padding-left:1rem;
+    padding-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma;
+    color: white;
+    box-shadow:  5px 5px 100px;
+}
+h1{
+text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+select,input{
+    display: block;
+    margin-bottom: 10px;
+    width:60%;
+    outline:none;
+    /* border:2px solid purple; */
+    border: 1px solid white;
+   /* background-color:purple; */
+   /* background: transparent; */
+   background-color: transparent;
+    height:30px;
+    border-radius: 5px;
+    /* color: white; */
+
+}
+select{
+    /* appearance: none; */
+    /* background-color: transparent; */
+    color: white;
+}
+
+button{
+    appearance: none;
+    width:40%;
+    outline: none;
+    border: 0;
+    height: 30px;
+    color: aliceblue;
+    background-color: rgb(95, 109, 135);
+    border-radius: 3px;
+    margin:10px 10px 10px 10px;
+}
+button:hover{
+     background-color: transparent;
+     border: 1px solid white;
+}
+option{
+    appearance: none;
+    background-color: transparent;
+}
+.opt{
+    appearance: none;
+    background-color: cadetblue;
+    height: 50px;
+}
+.opt:hover{
+    
+    background-color: rgb(96, 99, 99);
+    color:rgb(99, 96, 96);
+
+}
